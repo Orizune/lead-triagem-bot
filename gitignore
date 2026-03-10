@@ -1,6 +1,3 @@
-# Variáveis de ambiente - NUNCA subir para o GitHub
-.env
-
 # Dados locais do n8n
 n8n_data/
 
