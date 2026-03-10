@@ -7,6 +7,6 @@ services:
     volumes:
       - ./litellm_config.yaml:/app/config.yaml
     environment:
-      - LITELLM_MASTER_KEY=sk-1234
-      - GEMINI_API_KEY=SAIzaSyAO4iKeVfNqMNnjDYiiK6Vl9RitjRdYhLw
+      - GROQ_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
     command: [ "--config", "/app/config.yaml", "--port", "4000", "--detailed_debug" ]
